@@ -95,3 +95,7 @@ frame_progress = 0.505098
 position = Vector2(0, -7.5)
 scale = Vector2(0.5, 0.5)
 shape = SubResource("RectangleShape2D_2241j")
+
+[node name="Coyote jump timer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
