@@ -7,3 +7,4 @@ res://world.tscn
 res://player.tscn
 res://spikes.tscn
 res://level_completed.tscn
+res://level_tile_map.tscn
