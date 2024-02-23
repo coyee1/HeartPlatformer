@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://cflnfaeoaigum"]
+[gd_scene load_steps=7 format=3 uid="uid://cflnfaeoaigum"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_j2snm"]
 [ext_resource type="PackedScene" uid="uid://ud2og8gwieb7" path="res://player.tscn" id="2_gas7n"]
+[ext_resource type="PackedScene" uid="uid://bvfex83o6wp1n" path="res://level_completed.tscn" id="2_gosbb"]
 [ext_resource type="PackedScene" uid="uid://dm357ruoo273l" path="res://spikes.tscn" id="3_ums7i"]
+[ext_resource type="PackedScene" uid="uid://be0qpitb6scje" path="res://heart.tscn" id="4_ielkh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gruon"]
 size = Vector2(25, 69)
@@ -43,3 +45,23 @@ position = Vector2(272, 120)
 
 [node name="Spikes4" parent="." instance=ExtResource("3_ums7i")]
 position = Vector2(288, 120)
+
+[node name="Heart" parent="." instance=ExtResource("4_ielkh")]
+position = Vector2(128, 96)
+
+[node name="Heart2" parent="." instance=ExtResource("4_ielkh")]
+position = Vector2(288, 56)
+
+[node name="Heart3" parent="." instance=ExtResource("4_ielkh")]
+position = Vector2(264, 24)
+
+[node name="Heart4" parent="." instance=ExtResource("4_ielkh")]
+position = Vector2(312, -8)
+
+[node name="Heart5" parent="." instance=ExtResource("4_ielkh")]
+position = Vector2(24, 40)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="LevelCompleted" parent="CanvasLayer" instance=ExtResource("2_gosbb")]
+visible = false

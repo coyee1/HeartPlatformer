@@ -1,5 +1,9 @@
-res://world.tscn
+res://Events.gd
 res://DefaultMovementData.tres
+res://world.gd
+res://heart.gd
+res://heart.tscn
+res://world.tscn
 res://player.tscn
-res://player.gd
 res://spikes.tscn
+res://level_completed.tscn
