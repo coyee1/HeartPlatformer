@@ -88,6 +88,7 @@ size = Vector2(7, 13)
 collision_layer = 2
 floor_constant_speed = true
 floor_snap_length = 3.0
+safe_margin = 1.0
 script = ExtResource("1_5dttn")
 movement_data = ExtResource("2_x0wup")
 
