@@ -88,7 +88,7 @@ size = Vector2(7, 13)
 collision_layer = 2
 floor_constant_speed = true
 floor_snap_length = 3.0
-safe_margin = 1.0
+safe_margin = 0.5
 script = ExtResource("1_5dttn")
 movement_data = ExtResource("2_x0wup")
 
@@ -106,6 +106,9 @@ shape = SubResource("RectangleShape2D_2241j")
 [node name="Coyote jump timer" type="Timer" parent="."]
 wait_time = 0.1
 one_shot = true
+
+[node name="WallJumpTimer" type="Timer" parent="."]
+wait_time = 0.1
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(2.08165e-12, -32)

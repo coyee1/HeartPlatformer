@@ -1,9 +1,10 @@
-res://level_transition.tscn
+res://player.tscn
 res://DefaultMovementData.tres
+res://player.gd
 res://world.tscn
 res://level_one.tscn
 res://level_two.tscn
+res://level_transition.tscn
 res://heart.tscn
 res://level_completed.tscn
-res://world.gd
-res://player.tscn
+res://start_menu.tscn
